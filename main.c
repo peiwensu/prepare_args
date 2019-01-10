@@ -7,7 +7,6 @@
 #define BASIC_HELP 0
 #define ADVANCED_HELP 1
 
-//函数指针 重命名
 typedef int (*CommandFunction)(int argc, char **argv);
 
 struct Command
